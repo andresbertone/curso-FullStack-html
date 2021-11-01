@@ -57,8 +57,9 @@ img {
     float: left;
     width: 7%;
     margin-left: 20px;
-    padding: 195px 0px 195px 7px;
+    padding: 193px 0px 193px 7px;
     background-color: lightgreen;
+    border: 1px solid black
 }
 
 input, textarea{
