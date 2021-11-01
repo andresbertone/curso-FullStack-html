@@ -1,0 +1,68 @@
+.div-general {
+    float: left;
+    width: 40%;
+}
+
+.div-micv {
+    float: none;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 10px 0px 10px 5px;
+    border: 1px solid black;
+}
+
+.div-minombre {
+    float: left;
+    width: 50%;
+    background-color: lightgrey;
+    margin-top: 10px;
+    padding: 20px 0px 20px 5px;
+    border: 1px solid black;
+}
+
+.div-datosdecontacto {
+    float: left;
+    width: 50%;
+    background-color: #fcd6b5;
+    margin-top: 10px;
+    padding: 70px 0px 70px 5px;
+    border: 1px solid black;
+}
+
+.div-foto {
+    position: relative;
+    top: 10px;
+    left: 284px;
+    width: 263px;
+    height: 230px;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    width: 263px;
+    height: 230px;
+}
+
+.div-contacto {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0px 5px 5px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.div-banner {
+    float: left;
+    width: 7%;
+    margin-left: 20px;
+    padding: 195px 0px 195px 7px;
+    background-color: lightgreen;
+}
+
+input, textarea{
+    margin-top: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
