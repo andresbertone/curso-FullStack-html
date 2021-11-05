@@ -1,0 +1,20 @@
+img {
+    min-height: 320px;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-lightgrey {
+    background-color: lightgrey;
+}
+
+.banner {
+    min-height: 100%;
+}
+
+.bg-datoscontacto {
+    background-color: #fcd6b5;
+    height: 254px;
+}

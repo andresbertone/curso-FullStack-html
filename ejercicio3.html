@@ -1,0 +1,106 @@
+<!-- En este ejercicio se pide utilizar Bootstrap para maquetar nuevamente la imagen del ejercicio 2 -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejerc 3 - Bootstrap</title>
+
+    <!-- Acá importo las hojas de estilo de CSS de Bootstrap -->
+    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos-ejer3.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row mt-3">
+
+            <div class="col-10">
+                
+                <div class="row">
+                    
+                    <div class="col-12 py-2 bg-lightgrey border border-dark">
+                        Mi CV
+                    </div>
+
+                </div>
+
+                <div class="row mt-2">
+
+                    <div class="col-7 p-0">
+
+                        <div class="px-2 py-3 bg-lightgrey border border-dark">
+                            Andres Bertone
+                        </div>
+                            
+                        <div class="d-flex align-items-center col-12 px-2 mt-2 bg-datoscontacto border border-dark">
+                            Datos de contacto
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex col-5 p-0">
+                        <div class="ms-2 bg-primary">
+                            <img src="images/foto.png" class="img-fluid" alt="Foto de perfil">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-2">
+                    
+                    <div class="col-12 pt-1 bg-lightgrey border border-dark">
+                        Contacto
+                                       
+                        <div class="container mb-2">
+
+                            <div class="row row-cols-2 py-1 mt-2">
+    
+                                <div class="col-4 py-1 bg-lightgrey border border-dark">
+                                    Nombre
+                                </div>
+    
+                                <div class="col-6 py-1 ms-2 bg-lightgrey border border-dark">
+                                    Email
+                                </div>
+
+                                <div class="col-7 py-1 mt-2 bg-lightgrey border border-dark">
+                                    Comentario
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-2 py-1 mt-1 bg-lightgrey border border-dark">
+                                    Enviar
+                                </div>
+    
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+                <div class="banner py-5 ps-2 bg-lightgreen border border-dark">
+                    Espacio para banner verde
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
